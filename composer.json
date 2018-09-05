@@ -1,0 +1,33 @@
+{
+    "name": "a7e6j2/yii2-rest-api-captcha",
+    "description": "Simple captcha image generator for restful api",
+    "version": "1.0.0",
+    "type": "yii2-extension",
+    "keywords": [
+	"php71",
+        "yii2",
+        "captcha",
+        "restful",
+        "extension"
+    ],
+    "license": "MIT",
+    
+    "authors": [
+        {
+            "name": "GoldFish",
+            "email": "apprena@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "a7e6j2\\yii2-rest-api-captcha\\": ""
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "require": {
+        "php": ">=7.1.0",
+        "yiisoft/yii2": "*"
+    }
+}
