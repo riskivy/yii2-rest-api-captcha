@@ -1,7 +1,6 @@
-
 {
     "name": "a7e6j2/yii2-rest-api-captcha",
-    "description": "Simple captcha image generator for restful api",
+    "description": "The captcha image generator for restful api",
     "type": "library",
     "license": "GPL-2.0+",
     "authors": [
@@ -13,13 +12,15 @@
     
     
     "require": {
-        "php": ">=7.1.0",
-        "yiisoft/yii2": "*",
+        "php": ">=7.1",
+        "yiisoft/yii2": "*"
+        
     },
     
     "autoload": {
         "psr-4": {
-            "a7e6j2\\yii2-rest-api-captcha\\": ""
+            "a7e6j2\\yii2-rest-api-captcha\\": "src"
         }
     }
 }
+
