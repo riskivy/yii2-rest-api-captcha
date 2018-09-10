@@ -1,6 +1,6 @@
 <?php
 
-namespace a7e6j2\yii2-rest-api-captcha;
+namespace riskivy\captcha;
 
 use yii\captcha\CaptchaAction;
 use yii\base\Exception;
