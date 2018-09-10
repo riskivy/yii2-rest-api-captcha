@@ -1,5 +1,5 @@
 {
-    "name": "a7e6j2/yii2-rest-api-captcha",
+    "name": "riskivy/yii2-rest-api-captcha",
     "description": "The captcha image generator for restful api",
     "type": "library",
     "license": "GPL-2.0+",
@@ -19,7 +19,7 @@
     
     "autoload": {
         "psr-4": {
-            "a7e6j2\\yii2-rest-api-captcha\\": "src"
+            "riskivy\\captcha\\": "src"
         }
     }
 }
