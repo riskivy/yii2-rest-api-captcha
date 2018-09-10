@@ -6,7 +6,7 @@ Simple captcha image generator for restful api 22
 Recommended installation via [composer](http://getcomposer.org/download/):
 
 ```
-composer require a7e6j2/yii2-rest-api-captcha
+composer require riskivy/yii2-rest-api-captcha
 ```
 
 ## Usage
