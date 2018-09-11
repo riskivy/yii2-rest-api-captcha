@@ -53,7 +53,7 @@ class CaptchaHelper extends CaptchaAction
             return true;
         }
 
-        throw new Exception("Code is not valid \"{$code}\"");
+        return false;
     }
 
     /**
