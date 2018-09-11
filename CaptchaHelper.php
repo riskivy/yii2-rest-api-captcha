@@ -49,7 +49,12 @@ class CaptchaHelper extends CaptchaAction
      */
     public function verify(string $code): bool
     {
-        if (Yii::$app->cache->get($this->generateSessionKey($code)) === $code) {
+        $verify = Yii::$app->cache->get($this->generateSessionKey($code));
+
+        // 删除cache
+        Yii::$app->cache->delete($this->generateSessionKey($code));
+        
+        if ($verify === $code) {
             return true;
         }
 
